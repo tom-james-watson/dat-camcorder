@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "eslint-config-tomjwatson"
+  ],
+  "env": {
+    "browser": true,
+  },
+  "globals": {
+    "DatArchive": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "dat-camcorder",
+  "version": "0.1.0",
+  "description": "Record a video from your webcam and share the result as a dat archive",
+  "scripts": {
+    "build": "node_modules/.bin/webpack src/index.js -o dist/index.js",
+    "watch": "node_modules/.bin/webpack src/index.js --watch --mode development -o dist/index.js"
+  },
+  "author": "Tom Watson <tom@tomjwatson.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-tomjwatson": "^0.1.0"
+  }
+}

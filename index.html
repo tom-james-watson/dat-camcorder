@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+  <title>Dat Camcorder - Record & save video</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <script src="dist/index.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dat Camcorder</h1>
+    <p>Record video from your webcam &amp; save the recording as a new Dat archive, ready to embed on your own website.</p>
+  </header>
+  <main>
+    <div class="row">
+      <figure id="live-container">
+        <video id="live-video" width="320" muted></video><br />
+        <p><button id="record">Record</button><button id="stop" style="display:none">Stop</button></p>
+      </figure>
+      <figure id="recording-container" style="display:none">
+        <video id="recording-video" controls width="320"></video><br />
+        <p><button id="save">Save</button><button id="discard">Discard</button></p>
+      </figure>
+    </div>
+    <div class="row">
+      <a id="dat-url" target="_blank"></span>
+    </div>
+  </main>
+</body>
